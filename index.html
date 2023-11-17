@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleNav.css">
+    <link rel="stylesheet" href="styleFooter.css">
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <div class='themeDiv'>
+         <button type="button" class="buttonTheme" id='dark' onClick="darkclick()"></button>
+         <button type="button" class="buttonTheme" id='light' onClick="lightclick()" ></button>
+       </div>
+  
+       
+  </nav>
+
+    <div id="heading">
+      <h1>JS CALCULATOR</h1>
+    </div>
+    <div id="main">
+    <section >
+        <form name="myform" >
+            <input id="input" type="text" name="res">
+
+            <input type="button" class="input-button" value="1" onclick="myform.res.value+='1' ">
+            <input type="button" class="input-button"  value="2" onclick="myform.res.value+='2' ">
+            <input type="button" class="input-button" value="3" onclick="myform.res.value+='3' ">
+            <input type="button" class="input-button" value="+" onclick="myform.res.value+='+' ">
+
+            <input type="button" class="input-button"  value="4" onclick="myform.res.value+='4' ">
+            <input type="button" class="input-button"  value="5" onclick="myform.res.value+='5' ">
+            <input type="button" class="input-button"  value="6" onclick="myform.res.value+='6' ">
+            <input type="button" class="input-button" value="-" onclick="myform.res.value+='-' ">
+
+            <input type="button" class="input-button"  value="7" onclick="myform.res.value+='7' ">
+            <input type="button" class="input-button"  value="8" onclick="myform.res.value+='8' ">
+            <input type="button" class="input-button"  value="9" onclick="myform.res.value+='9' ">
+            <input type="button" class="input-button" value="*" onclick="myform.res.value+='*' ">
+
+            <input type="button" class="input-button"  value="0" onclick="myform.res.value+='0' ">
+            <input type="button" class="input-button" value="/" onclick="myform.res.value+='/' ">
+            <input type="button" class="input-button" value="." onclick="myform.res.value+='.' ">
+
+            <input type="button" id="input-res" value="=" onclick="resultev()">
+
+            <input type="button" id="input-clear" value="AC" onclick="myform.res.value =' ' ">
+
+        </form>
+    </section>
+</div>
+    
+<footer id="footer">
+    <div class="footer-1 " >
+      <ul id="footer-ul" class='theme-toggle'>
+        <li><a href="https://www.instagram.com/chr7s.dsouza/" target='_blank'><object data='/insta.svg' class="svg"></object></a></li>
+        <li><a href="https://github.com/chr7s-xyz" target='_blank'><object data='/github.svg' class="svg"></object></a></li>
+        <li><a href="https://www.linkedin.com/in/chris-dsouza-55719b245/" target='_blank'><object data='/linkedin.svg' class="svg"></object></a></li>
+       </ul>
+    <div id="footer-11" class='theme-toggle' >
+      <p id='footer-para'>Made by @Chris Dsouza</p>
+     
+    </div>
+    </div>
+    
+    <div id="footer-2" >
+     
+      Copyrights reserved '23</div>
+  </footer>
+</body>
+</html>

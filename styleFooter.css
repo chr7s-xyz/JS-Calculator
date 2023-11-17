@@ -1,0 +1,38 @@
+@import 'style.css';
+#footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-fourth);
+    color: var(--color-third);
+   
+}
+#footer-ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    list-style: none;
+    text-decoration: none;
+}
+#footer-ul>li{
+    height: 3rem;
+}
+#footer-ul>li>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#footer-11{
+    padding: 2rem 0;
+}
+#footer-2{
+    padding-bottom: 0.2rem;
+}
+.svg{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-fifth);
+    border-radius: 50%;
+    pointer-events: none;
+}

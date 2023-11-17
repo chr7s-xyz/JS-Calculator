@@ -1,0 +1,29 @@
+@import 'style.css';
+
+#nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--color-fourth);
+}
+.buttonTheme{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.themeDiv{
+    width: 20%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#dark{
+    background-color: black;
+}
+#light{
+    background-color: pink;
+}
