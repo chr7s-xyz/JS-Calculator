@@ -23,6 +23,9 @@
     width: 100%;
     cursor: pointer;
 }
+#footer-ul>li>a>svg{
+    color: var(--color-third);
+}
 #footer-11{
     padding: 2rem 0;
 }
